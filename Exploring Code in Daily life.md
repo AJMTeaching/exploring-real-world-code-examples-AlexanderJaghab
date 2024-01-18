@@ -2,94 +2,94 @@
 # - Code that specifies when an alarm clock should start making audible sounds.
 
 
-## Link:
+### Link:
 https://github.com/ROSHAN-KHANDAGALE/Alarm-Clock
 
-## Which lines from which files:
+### Which lines from which files:
 Main.py
 lines 16-17
     status.config(text="Alarm is ringing!")
     winsound.Beep(1000, 4000)  # Beep sound for 2 seconds
 
-## Why?
+### Why?
 uses the winsound module to make a beep sound. 
 
 # - Code for a rocket targeting system.
 
-## Link: 
+### Link: 
 
-## Which lines from which files
+### Which lines from which files
 
-## Why?
+### Why?
 
 
 # - File compression utility algorithm.
 
-## Link: 
+### Link: 
 
-## Which lines from which files
+### Which lines from which files
 
-## Why?
+### Why?
 
 
 # - Weather forecasting algorithm.
 
-## Link: 
+### Link: 
 
-## Which lines from which files
+### Which lines from which files
 
-## Why?
+### Why?
 
 
 # - E-commerce checkout system process.
 
-## Link: 
+### Link: 
 
-## Which lines from which files
+### Which lines from which files
 
-## Why?
+### Why?
  
 
 # - Social media post scheduler.
 
-## Link: 
+### Link: 
 
-## Which lines from which files
+### Which lines from which files
 
-## Why?
+### Why?
 
 
 # - Fitness app calorie counter.
 
-## Link: 
+### Link: 
 
-## Which lines from which files
+### Which lines from which files
 
-## Why?
+### Why?
 
 
 # - Online voting system mechanics.
 
-## Link: 
+### Link: 
 
-## Which lines from which files
+### Which lines from which files
 
-## Why?
+### Why?
 
 
 # - Automated email response system.
 
-## Link: 
+### Link: 
 
-## Which lines from which files
+### Which lines from which files
 
-## Why?
+### Why?
 
 
 # Personal blurbs
 
-## 1
+### 1
 
-## 2
+### 2
 
-## 3
+### 3
