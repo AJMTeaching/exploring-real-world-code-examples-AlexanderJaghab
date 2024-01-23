@@ -16,20 +16,21 @@ creates a function to input a time for the alarm to go off
 # - Code for a rocket targeting system.
 
 ### Link: 
-
+https://github.com/abnsl0014/Missile-Guidance-System
 ### Which lines from which files
-
+Trajectory.py
+1-38
 ### Why?
-
+This section creates the trajectory for a missle 
 
 # - File compression utility algorithm.
 
 ### Link: 
-
+https://github.com/dropbox/lepton/blob/master/CMakeLists.txt
 ### Which lines from which files
-
+CMakeLists.txt whole file
 ### Why?
-
+This whole file can help compress arbiratry file types into smaller items
 
 # - Weather forecasting algorithm.
 
@@ -132,7 +133,8 @@ This section allows you to specify what you want to say in the auto responded me
 # Personal blurbs
 
 ### 1
-Code for automated dnd 
+log in system for a operating system 
 ### 2
-
+calculator system
 ### 3
+how a streaming platform selects the song you want to play 
