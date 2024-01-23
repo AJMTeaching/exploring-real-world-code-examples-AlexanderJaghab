@@ -37,12 +37,14 @@ This whole file can help compress arbiratry file types into smaller items
 ### Link: 
 https://github.com/Prati5/WeatherPrediction/blob/master/weatherPrediction.ipynb
 ### Which lines from which files
+weatherPrediction.ipynb
+
 In [6]
 from sklearn.model_selection import train_test_split 
 xtrain, xtest, ytrain, ytest = train_test_split( x, y, test_size=1/3, random_state=0 )
 ### Why?
 These lines are used to start the training for a forecasting algorithm
-
+the entire file then goes through and does some very complicated math that I dont fully understand to help calculate the weather forcast based on the inputs
 # - E-commerce checkout system process.
 
 ### Link: 
@@ -59,8 +61,6 @@ https://github.com/allenheltondev/social-media-scheduler/blob/main/state-machine
 ### Which lines from which files
 state-machines/schedule-social-post.asl.json
 11-19
-
-
 "StartAt": "Has Reference Number?",
         "States": {
           "Has Reference Number?": {
@@ -72,7 +72,7 @@ state-machines/schedule-social-post.asl.json
                 "Next": "Move up reference number"
 ### Why?
 This entire file goes through creating the schedules, also has multiple bug correctors, like checking if there is a duplicate schedule before proceeding
-
+I was struggling with this one to find specific lines to quote, each file interacts with each other in different ways 
 # - Fitness app calorie counter.
 
 ### Link: 
@@ -111,6 +111,7 @@ def reg_server(root,frame1,name,sex,zone,city,passw):
 
 ### Why?
 These lines allow sonmeone to register to vote using this code.
+creates a server for registeration to have an account to vode by defininf the reg_server var
 
 # - Automated email response system.
 
@@ -130,11 +131,65 @@ mail.reply.body:
     The Python Reply-To Autoresponder
 ### Why?
 This section allows you to specify what you want to say in the auto responded message, this would  be very helpful because you can specify what you want it to say
+by using the mail.reply.body we can store what we want into this to send
 # Personal blurbs
 
 ### 1
-log in system for a operating system 
+registration and log in systems
+### Link: 
+https://github.com/lyushher/Login-System/blob/main/LoginSystem.py
+### Which lines from which files
+LoginSystem.py
+16-27
+def register():
+    global register_screen
+    register_screen = Toplevel(main_screen)
+    register_screen.title("Register")
+    register_screen.geometry("320x350")
+
+    global username
+    global password
+    global username_entry
+    global password_entry
+    username = StringVar()
+    password = StringVar()
+### Why?
+these lines layout the beginning of the registration system for this python script 
+starts with setting the username and password to string variables to store the names
+
 ### 2
 calculator system
+### Link: 
+https://github.com/AceLewis/my_first_calculator.py/blob/master/my_first_calculator.py
+### Which lines from which files
+my_first_calculator.py
+all lines
+### Why?
+maybe the worst calculator ive ever seen coded, has seperate lines for each equation instead of just creating a variable, I thought it was funny and wanted to share
+
 ### 3
-how a streaming platform selects the song you want to play 
+How a calander defines the months
+### Link: 
+https://github.com/FilaMarek/JavaScript-Calander/blob/master/script.js
+### Which lines from which files
+script.js
+6-22
+var tday = new Date().getDate();
+var currentMonths = new Date().getMonth();// what month it is
+var Months = currentMonths;
+var year =  new Date().getFullYear();
+var days = new Date().getDate();//day of the month ex 11
+var daysOfTheweek = new Date().getDay(); // days of the week ex 6 === sat
+var weekNumber = 0;
+var tempMonths = Months +1;
+var dateobj =  new Date(tempMonths  +" " + 1 + " " + year)
+var tempDay = 1;
+var tempMonths = Months + 1;
+var tempYear = year;
+var currentCalMode = 0; // 0 is Month mode, 1 is week mode, 2 is day Mode
+var textMonth = " "
+var numberOfTotalWeeks = 5;
+var d,m,y,scheduleEvent, compareArr,tempVar, tempVar2,divEvent,tdayMonth,Monthchecker,z;
+
+### Why?
+these lines start the variables for the different months, days, and years
